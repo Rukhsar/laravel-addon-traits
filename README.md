@@ -24,4 +24,13 @@ class User extends Model
 
 ```
 
+Use `Order()` in your query to fetch the result.
+
+```php
+<?php
+
+    $users = App\User::Order()->get();
+
+```
+
 You can select any column to add OrderBy functionality either in `asc` or `desc` order.
