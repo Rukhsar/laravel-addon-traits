@@ -1,6 +1,14 @@
-## Laravel Addon Traits
+# Laravel Addon Traits
 
 Collection of useful Laravel model traits to retrieve random model and add OrderBy functionality.
+
+## Installation
+
+Require this package by running:
+
+```
+composer require rukhsar/addontraits
+```
 
 ### Laravel OrderByTrait
 
@@ -32,5 +40,4 @@ Use `Order()` in your query to fetch the result.
     $users = App\User::Order()->get();
 
 ```
-
 You can select any column to add OrderBy functionality either in `asc` or `desc` order.
