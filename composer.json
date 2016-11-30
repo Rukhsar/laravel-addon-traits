@@ -1,0 +1,16 @@
+{
+    "name": "rukhsar/addontraits",
+    "description": "Collection of user full addon traits to perform random model and orderby functionality.",
+    "keywords": ["laravel","traits","orderby","random order","illuminate","eloquent"],
+    "license": "MIT",
+    "authors": [{"name": "Rukhsar Manzoor", "email": "rukhsar.man@gmail.com"}],
+    "require": {
+        "php": ">=5.4.0",
+        "laravel/framework": ">=5.2"
+    },
+      "autoload": {
+      "psr-4": {
+          "Rukhsar\\AddonTraits\\": "src"
+        }
+    }
+  }
